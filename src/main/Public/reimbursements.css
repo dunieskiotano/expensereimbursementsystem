@@ -1,0 +1,86 @@
+.table table-hover{
+    margin-left: 0px;
+}
+th{
+    background-color: aliceblue;
+    color: black;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: white;
+    box-shadow: 0 16px 16px black;
+    
+}
+
+
+h1{
+    margin-top: 10px;
+    margin-left: 240px;;
+    text-shadow: 0 16px 16px black;
+}
+.container{
+    margin-left: 60px;
+}
+
+.buttonBack{
+    margin-left: 160px ;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid back;
+    font-size: 18px;
+    text-shadow: 0 14px 14px black;
+    }
+    
+    
+    #mainMenu{
+        font-size: 18px;
+        text-shadow: 0 14px 14px black;
+    }
+    #footerBox{
+        color: black;
+        margin-left: 550px;
+        font-family: Helvetica;
+        font-size: 16px;
+        text-shadow: 0 16px 16px black;
+        letter-spacing: 0.5px;
+        font-weight: bold;
+        padding: 30px;
+    }
+    #sessionUser{
+        color: red;
+    }
+    body{
+        background-color: rgb(243, 247, 250);
+    }
+    th{
+        background-color: rgb(124, 164, 204);
+       
+    }
+    nav{
+        text-shadow: 0 14px 14px black;
+    }
+    td{
+        width: 70%;
+    }
+
+    #tableReimb{
+        margin-left: 60px;
+        width: 80%;
+        text-align: center;
+        font-weight: bold;
+    }
+#userInfoHeading{
+    margin-left: 450px;
+    margin-top: 2.5em;
+    width: 40%;
+    border: 1px solid black;
+    box-shadow: 0 14px 14px black;
+    margin-bottom: 0.5em;
+    height: 50px;
+    text-align: center;
+    font-size: 2pc;
+    background-color: white;
+}

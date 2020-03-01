@@ -1,0 +1,119 @@
+#sessionUser{
+    justify-content: flex-end;
+    color: red;
+}
+img{
+    padding: 0;
+    margin-top:10px;
+    margin-left: 10px;
+}
+
+#welcome{
+   color: white;
+   text-shadow: 0 16px 16px black;
+   font-size:3em;
+   font-weight: bold;
+   
+}
+button{
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid black;
+}
+
+table{
+    margin-left: 100px;
+    text-align:  center;
+    margin-top: 40px;
+    box-shadow: 0 13px 13px rgb(209, 207, 207)
+}
+#findButton{
+    padding: 10px;
+    margin: 5px;
+}
+#findReimbursementButton{
+    padding: 10px;
+    margin: 5px;
+}
+input{
+    text-align: center;
+}
+#surroundingBox{
+    box-shadow: 0 13px 13px black;
+    margin: 5px 10px 30px 130px;
+    border: 1px solid rgb(12, 1, 1);
+    display: inline-block;
+    padding: 20px;
+    background-color: aliceblue;
+}
+#tableReimbursement{
+    margin: 20px;
+    box-shadow: 0 16px 16px black;
+}
+table{
+    background-color: white;
+    font-family: Helvetica;
+    }
+table tr :hover{
+    background-color: aliceblue;
+}
+#tUserHeader{
+    background-color: rgb(141, 89, 68);
+    border: 1px solid transparent;
+    text-shadow: 0 16px 16px black;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: white;
+}
+#tReimbursementHeader{
+    background-color: rgb(212, 212, 177);
+    border: 1px solid transparent;
+    text-shadow: 0 13px 13px black;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+#tableUser{
+    margin-left:20px;
+    margin-top: 22px;
+    box-shadow: 0 16px 16px black;
+}
+body{
+    background-color: rgb(75, 111, 141);
+}
+
+
+#footerBox{
+    color: white;
+    margin-left: 560px;
+    font-family: Helvetica;
+    font-size: 16px;
+    text-shadow: 0 16px 16px black;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+nav{
+    text-shadow: 0 14px 14px black;
+}
+#alertNotValidEntry{
+    margin-left: 320px;
+    width: 40%;
+    display: none;
+    border: 1px solid black;
+    box-shadow: 0 16px 16px black;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: rgb(141, 41, 41);
+ }
+ #alertNotFound{
+    margin-left: 320px;
+    width: 40%;
+    display: none;
+    border: 1px solid white;
+    box-shadow: 0 16px 16px black;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: rgb(39, 68, 126);
+ }
+
+

@@ -1,0 +1,153 @@
+.form-control{
+    width: 10%;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #010911;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #edeff1;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    border: 1px solid transparent;
+    margin: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    margin-left: 170px;
+    
+}
+label, input[type=text] {
+    display: inline-block;
+}
+
+label {
+    width: 10em;
+    font-size:15px;
+    color:#272727;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    
+}
+input[type=text]{
+    width:300px;
+    height:auto;
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-top:5px;
+    text-indent:5px;
+    background-color:rgb(255, 255, 255);
+    border-radius:2px;
+    border: 1px solid black;
+    font-size:15px;
+    color:black;
+    font-family:'Open Sans', sans-serif;
+    font-weight:200;
+}
+
+
+#alert{
+    text-align: center;
+    margin-left: 480px;
+    margin-top: 30px;
+    display: none;
+    width:40%;
+    font-weight: bold;
+    color: black;
+    box-shadow: 0 13px 13px black;
+    border: 1px solid black;
+}
+.container{
+    margin-top: 90px;
+    margin-left: 115px;
+    text-align: center;
+    
+
+}
+th{
+    text-align: center;
+}
+#buttonSubmit{
+margin-left: 10px;
+width: 200px;
+height: 50px;
+
+}
+.table {
+    width: 100%;
+    margin-bottom: 3rem;
+    background-color: white;
+    margin-left: 120px;
+    
+}
+#th1{
+    background-color: rgb(53, 15, 15);
+    color: white;
+    height: 50%;
+}
+.buttonBack{
+    margin-left: 160px ;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid back;
+    font-size: 18px;
+    text-shadow: 0 14px 14px black;
+    
+    
+    }
+
+
+input, select{
+    color: rgb(8, 8, 92);
+    text-align: center;
+}
+#footerBox{
+    color: black;
+    margin-left: 570px;
+    font-family: Helvetica;
+    font-size: 16px;
+    text-shadow: 0 16px 16px black;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    padding: 0px;
+    
+}
+#mainMenu{
+    font-size: 18px;
+    text-shadow: 0 14px 14px black;
+}
+nav{
+    text-shadow: 0 14px 14px black;
+}
+#sessionUser{
+    color: red;
+}
+#updateReimb{
+    box-shadow: 0 16px 16px black;
+    background-color: white;
+    
+}
+body{
+    background-color: rgb(244, 249, 253);
+}

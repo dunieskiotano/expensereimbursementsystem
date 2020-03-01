@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Expense Reimbursement System</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="ERS-style.css">
+    <link rel="stylesheet" href="user-landing-page-admin.css">
+
+
+</head>
+<title>Expense Reimbursement System</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light .bg-light" id="navbarERS">
+        <!-- <a class="navbar-brand" href="#">ERS</a>-->
+        <a href="#" class="navbar-left"><img src="../assets/ers.png" alt width="95" height="62"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html" tabindex="-1">Your Account</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact Us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Reach us</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="mailto:dunieskior@gmail.com">Email</a>
+                        <a class="dropdown-item" href="#">Phone</a>
+
+                    </div>
+                </li>
+                <img src="../assets/man-user.png" alt width="20" height="18"></a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" id="sessionUser" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Reach us</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Profile</a>
+                        <a class="dropdown-item" id='logout' href="#">Log out</a>
+
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+
+    <div class="jumbotron-fluid">
+        <div class="container">
+            <div id="welcome">
+            </div>
+        </div>
+    </div>
+    <div id="surroundingBox">
+        <div class="container">
+            <div id="alertNotValidEntry">
+            </div>
+            <div id="alertNotFound">
+            </div>
+        </div>
+        <div class="row">
+            <hr class="my-4">
+            <div class=col-sm-6>
+                <table border="1" cellpadding="15" id="tableUser">
+                    <tr>
+                        <th id="tUserHeader"></th>
+
+                        <th id="tUserHeader"> USER DATA MANINULATION </th>
+
+                    </tr>
+                    <tr>
+                        <th rowspan="4" id="tUserHeader">ACTIONS</th>
+                        <th id="action1"></th>
+                    <tr>
+                        <td id="action2"></td>
+                    </tr>
+                    <tr>
+                        <td id="action3"></td>
+                    </tr>
+
+                    </tr>
+
+                </table>
+            </div>
+            <div class=col-sm-6>
+                <table border="1" cellpadding="15" id="tableReimbursement">
+                    <tr>
+                        <th id="tReimbursementHeader"></th>
+
+                        <th id="tReimbursementHeader"> REIMBURSEMENT DATA MANINULATION </th>
+
+                    </tr>
+                    <tr>
+                        <th rowspan="4" id="tReimbursementHeader">ACTIONS</th>
+                        <th id="action5"></th>
+                    <tr>
+                        <td id="action6"></td>
+                    </tr>
+                    <tr>
+                        <td id="action7"></td>
+                    </tr>
+                    <tr>
+
+                        <td id="action8"></td>
+
+                    </tr>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footerBox">
+            &copy Copyright 2019 - E R S - All Rights Reserved.
+        </div>
+    </footer>
+
+
+</body>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+<script src="user-landing-page-admin.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>
